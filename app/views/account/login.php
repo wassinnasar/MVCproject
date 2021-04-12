@@ -1,8 +1,8 @@
 <h3>Вход</h3>
-<form>
+<form action = "/site_test/account/login" method = "post">
 <p>Login</p>
-<p><input type="text"></p>
+<p><input type="text" name = "login"></p>
 <p>Password</p>
-<p><input type="text"></p>
-<b><button></button>Registration</b>
+<p><input type="text"name = "password"></p>
+<b><button type ="submit" name = "enter">Registration</button></b>
 </form>

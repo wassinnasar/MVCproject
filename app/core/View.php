@@ -32,5 +32,9 @@ namespace app\core;
          header('Location: '.$url);
          exit;
      }
+
+     public function message($status, $message){
+        exit(json_encode(['status' => $status, 'message' => $message]));
+     }
 }
 ?>
